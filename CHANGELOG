@@ -1,0 +1,5 @@
+tcpip2instr-yangcli (1.0) jammy; urgency=medium
+
+  * Initial release. A python-vxi11 based yangcli interface to YANG/NETCONF devices
+
+ -- Vladimir Vassilev <vladimir@lightside-instruments.com>  Mon, 27 Nov 2023 02:17:00 +0100

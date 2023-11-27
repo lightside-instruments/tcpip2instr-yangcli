@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <networks xmlns="urn:ietf:params:xml:ns:yang:ietf-network">
+    <network>
+      <network-id>dc-power-test</network-id>
+      <node>
+        <node-id>foo</node-id>
+        <description>Lightside Instruments Flare DC power supply</description>
+        <netconf-connect-params xmlns="urn:tntapi:netconf-node">
+          <user>y123</user>
+          <server>localhost</server>
+          <password>mysecretpass</password>
+          <ncport>10830</ncport>
+        </netconf-connect-params>
+      </node>
+      <node>
+        <node-id>bar</node-id>
+        <description>Agilient E3647A DC power supply</description>
+        <netconf-connect-params xmlns="urn:tntapi:netconf-node">
+          <user>y123</user>
+          <server>localhost</server>
+          <password>mysecretpass</password>
+          <ncport>20830</ncport>
+        </netconf-connect-params>
+      </node>
+   </network>
+  </networks>
+</config>
